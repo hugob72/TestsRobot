@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.14.7 on win32)" generated="2026-09-27T21:07:43.246938" rpa="false" schemaversion="5">
+<suite id="s1" name="Exercice1" source="C:\Users\hblan\Documents\Autodidacte\test-squash\tests\Exercice1.robot">
+<test id="s1-t1" name="Ouvrir Google dans le navigateur" line="12">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-09-27T21:07:44.056258" level="INFO">Opening browser 'ff' to base url 'https://google.Fr'.</msg>
+<arg>${LOGIN URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-09-27T21:07:44.054409" elapsed="65.031270"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-09-27T21:08:49.107572" elapsed="0.297431"/>
+</kw>
+<status status="PASS" start="2026-09-27T21:07:44.051670" elapsed="65.409117"/>
+</test>
+<test id="s1-t2" name="Chercher le site de l'université" line="15">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-09-27T21:08:49.578066" level="INFO">Clicking element '//*[@id="W0wltc"]'.</msg>
+<arg>${SEARCHBAR}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-27T21:08:49.531203" elapsed="0.219169"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-09-27T21:08:49.752764" level="INFO">Typing text 'Le Mans Université' into text field 'name=q'.</msg>
+<arg>name=q</arg>
+<arg>Le Mans Université</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-27T21:08:49.751251" elapsed="0.210133"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-09-27T21:08:51.991084" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses execution for the given time.</doc>
+<status status="PASS" start="2026-09-27T21:08:49.963566" elapsed="2.027755"/>
+</kw>
+<kw name="Press Keys" owner="SeleniumLibrary">
+<msg time="2026-09-27T21:08:51.995203" level="INFO">Sending key(s) ('RETURN',) to name=q element.</msg>
+<msg time="2026-09-27T21:08:52.685657" level="INFO">Pressing special key RETURN to element.</msg>
+<msg time="2026-09-27T21:08:52.686051" level="INFO">Releasing special key RETURN.</msg>
+<arg>name=q</arg>
+<arg>RETURN</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<status status="PASS" start="2026-09-27T21:08:51.993389" elapsed="0.827540"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-09-27T21:08:53.823799" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses execution for the given time.</doc>
+<status status="PASS" start="2026-09-27T21:08:52.821965" elapsed="1.002233"/>
+</kw>
+<status status="PASS" start="2026-09-27T21:08:49.478443" elapsed="4.346552"/>
+</test>
+<test id="s1-t3" name="Aller sur l'ENT" line="21">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-09-27T21:08:53.828877" level="INFO">Clicking element '//*[@class="l" and contains(text(),"ENT")]'.</msg>
+<msg time="2026-09-27T21:08:53.948423" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-09-27T21:08:53.959407" level="FAIL">Element with locator '//*[@class="l" and contains(text(),"ENT")]' not found.</msg>
+<arg>//*[@class="l" and contains(text(),"ENT")]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="FAIL" start="2026-09-27T21:08:53.828379" elapsed="0.171522">Element with locator '//*[@class="l" and contains(text(),"ENT")]' not found.</status>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>//*[@id="bouton-etudiant"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-09-27T21:08:54.001212" elapsed="0.000100"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>//*[@id="header-a1"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-09-27T21:08:54.001785" elapsed="0.000064"/>
+</kw>
+<status status="FAIL" start="2026-09-27T21:08:53.827020" elapsed="0.175916">Element with locator '//*[@class="l" and contains(text(),"ENT")]' not found.</status>
+</test>
+<test id="s1-t4" name="Fermeture du navigateur" line="25">
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-09-27T21:08:55.007345" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses execution for the given time.</doc>
+<status status="PASS" start="2026-09-27T21:08:54.005086" elapsed="1.002482"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-09-27T21:08:55.009093" elapsed="3.256410"/>
+</kw>
+<status status="PASS" start="2026-09-27T21:08:54.003803" elapsed="4.262235"/>
+</test>
+<doc>Exercice 1 : Se connecter à une application web</doc>
+<status status="FAIL" start="2026-09-27T21:07:43.250652" elapsed="75.018136"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Exercice1" id="s1" pass="3" fail="1" skip="0">Exercice1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

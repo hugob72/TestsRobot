@@ -1,0 +1,33 @@
+1791485083731	geckodriver	INFO	Listening on 127.0.0.1:57656
+1791485086924	mozrunner::runner	INFO	Running command: "C:\\Users\\hblan\\.cache\\selenium\\firefox\\win64\\157.0.1\\firefox.exe" "--marionette" "--remote-debuggin ... 7" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hblan\\AppData\\Local\\Temp\\rust_mozprofilesfzA4Z"
+Dynamically enable window occlusion 0
+1791485087900	Marionette	INFO	Marionette enabled
+1791485088037	Marionette	INFO	Listening on port 61847
+WebDriver BiDi listening on ws://127.0.0.1:57657
+Read port: 61847
+1791485088155	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR shell_windows::limited_access_features] Error generating feature token: NS_ERROR_FAILURE
+[ERROR shell_windows::taskbar::shortcut] Error matching shortcut: Error { code: HRESULT(0x80004005), message: "Erreur non spécifiée" }
+[ERROR shell_windows::taskbar::shortcut] Error matching shortcut: Error { code: HRESULT(0x80004005), message: "Erreur non spécifiée" }
+[ERROR shell_windows::taskbar::shortcut] Error matching shortcut: Error { code: HRESULT(0x80004005), message: "Erreur non spécifiée" }
+console.error: "Experiment desktop-release-rollout-show-relay-to-all-browsers-next-sign-up-modal-cta has unknown featureId: email-autocomplete-relay"
+console.error: "Experiment visual-card-updates has unknown featureId: newtabRefinedCardsLayout"
+console.error: "Experiment enable-nimbus-unenrollment-synchronization has unknown featureId: nimbusStore"
+console.error: "Experiment private-window-visual-refresh-design-change-only has unknown featureId: feltPrivacy"
+[ERROR shell_windows::taskbar::shortcut] Error matching shortcut: Error { code: HRESULT(0x80004005), message: "Erreur non spécifiée" }
+1791485101246	RemoteAgent	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/shared/Sync.sys.mjs:572:24
+TimedPromise@chrome://remote/content/shared/Sync.sys.mjs:556:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:471:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:221:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8080."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8080."
+console.error: "Experiment desktop-release-rollout-show-relay-to-all-browsers-next-sign-up-modal-cta has unknown featureId: email-autocomplete-relay"
+console.error: "Experiment visual-card-updates has unknown featureId: newtabRefinedCardsLayout"
+console.error: "Experiment enable-nimbus-unenrollment-synchronization has unknown featureId: nimbusStore"
+console.error: "Experiment private-window-visual-refresh-design-change-only has unknown featureId: feltPrivacy"
+1791485212223	Marionette	INFO	Stopped listening on port 61847
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "http://localhost:8080/home" [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "http://localhost:8080/" [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+JavaScript error: resource://gre/modules/PrivateBrowsingUtils.sys.mjs, line 50: TypeError: can't access property "QueryInterface", aWindow.docShell is null
+Dynamically enable window occlusion 1

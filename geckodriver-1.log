@@ -1,0 +1,124 @@
+1791499079928	geckodriver	INFO	Listening on 127.0.0.1:56933
+1791499083150	mozrunner::runner	INFO	Running command: "C:\\Users\\hblan\\.cache\\selenium\\firefox\\win64\\157.0.1\\firefox.exe" "--marionette" "--remote-debuggin ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hblan\\AppData\\Local\\Temp\\rust_mozprofileyKyRSA"
+Dynamically enable window occlusion 0
+1791499083842	Marionette	INFO	Marionette enabled
+1791499083987	Marionette	INFO	Listening on port 63658
+WebDriver BiDi listening on ws://127.0.0.1:56934
+Read port: 63658
+1791499084265	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR shell_windows::limited_access_features] Error generating feature token: NS_ERROR_FAILURE
+[ERROR shell_windows::taskbar::shortcut] Error matching shortcut: Error { code: HRESULT(0x80004005), message: "Erreur non spécifiée" }
+[ERROR shell_windows::taskbar::shortcut] Error matching shortcut: Error { code: HRESULT(0x80004005), message: "Erreur non spécifiée" }
+[ERROR shell_windows::taskbar::shortcut] Error matching shortcut: Error { code: HRESULT(0x80004005), message: "Erreur non spécifiée" }
+console.error: "Experiment desktop-release-rollout-show-relay-to-all-browsers-next-sign-up-modal-cta has unknown featureId: email-autocomplete-relay"
+console.error: "Experiment visual-card-updates has unknown featureId: newtabRefinedCardsLayout"
+console.error: "Experiment enable-nimbus-unenrollment-synchronization has unknown featureId: nimbusStore"
+console.error: "Experiment private-window-visual-refresh-design-change-only has unknown featureId: feltPrivacy"
+[ERROR shell_windows::taskbar::shortcut] Error matching shortcut: Error { code: HRESULT(0x80004005), message: "Erreur non spécifiée" }
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8080."
+1791499093744	RemoteAgent	WARN	PollPromise timed out after 0 ms
+1791499093747	RemoteAgent	WARN	PollPromise timed out after 0 ms
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8080."
+console.error: "Experiment desktop-release-rollout-show-relay-to-all-browsers-next-sign-up-modal-cta has unknown featureId: email-autocomplete-relay"
+console.error: "Experiment visual-card-updates has unknown featureId: newtabRefinedCardsLayout"
+console.error: "Experiment enable-nimbus-unenrollment-synchronization has unknown featureId: nimbusStore"
+console.error: "Experiment private-window-visual-refresh-design-change-only has unknown featureId: feltPrivacy"
+1791499118955	Marionette	INFO	Stopped listening on port 63658
+console.error: RemoteSecuritySettings: 
+  failed to download CRLite filter
+Object
+  - prototype Object
+    - columnNumber = 11
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":29,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":28,"lineNumber":292,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":28,"lineNumber":244,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Attachments.sys.mjs","name":"_fetchAttachment","sourceId":27,"lineNumber":591,"columnNumber":35,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Attachments.sys.mjs","name":"downloadAsBytes","sourceId":27,"lineNumber":568,"columnNumber":35,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"downloadAsBytes@resource://services-settings/Attachments.sys.mjs:568:35\n","nativeSavedFrame":{}},"formattedStack":"_fetchAttachment@resource://services-settings/Attachments.sys.mjs:591:35\ndownloadAsBytes@resource://services-settings/Attachments.sys.mjs:568:35\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:244:12\n_fetchAttachment@resource://services-settings/Attachments.sys.mjs:591:35\ndownloadAsBytes@resource://services-settings/Attachments.sys.mjs:568:35\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:292:15\nfetch@resource://services-settings/Utils.sys.mjs:244:12\n_fetchAttachment@resource://services-settings/Attachments.sys.mjs:591:35\ndownloadAsBytes@resource://services-settings/Attachments.sys.mjs:568:35\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:292:15\nfetch@resource://services-settings/Utils.sys.mjs:244:12\n_fetchAttachment@resource://services-settings/Attachments.sys.mjs:591:35\ndownloadAsBytes@resource://services-settings/Attachments.sys.mjs:568:35\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:292:15|fetch@resource://services-settings/Utils.sys.mjs:244:12|_fetchAttachment@resource://services-settings/Attachments.sys.mjs:591:35|downloadAsBytes@resource://services-settings/Attachments.sys.mjs:568:35|
+  - prototype Object
+console.error: RemoteSecuritySettings: 
+  failed to obtain bytes for CRLite delta 20260930-1-default.filter.delta
+console.error: RemoteSecuritySettings: 
+  failed to download CRLite filter
+Object
+  - prototype Object
+    - columnNumber = 11
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":29,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":28,"lineNumber":292,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":28,"lineNumber":244,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Attachments.sys.mjs","name":"_fetchAttachment","sourceId":27,"lineNumber":591,"columnNumber":35,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Attachments.sys.mjs","name":"downloadAsBytes","sourceId":27,"lineNumber":568,"columnNumber":35,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"downloadAsBytes@resource://services-settings/Attachments.sys.mjs:568:35\n","nativeSavedFrame":{}},"formattedStack":"_fetchAttachment@resource://services-settings/Attachments.sys.mjs:591:35\ndownloadAsBytes@resource://services-settings/Attachments.sys.mjs:568:35\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:244:12\n_fetchAttachment@resource://services-settings/Attachments.sys.mjs:591:35\ndownloadAsBytes@resource://services-settings/Attachments.sys.mjs:568:35\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:292:15\nfetch@resource://services-settings/Utils.sys.mjs:244:12\n_fetchAttachment@resource://services-settings/Attachments.sys.mjs:591:35\ndownloadAsBytes@resource://services-settings/Attachments.sys.mjs:568:35\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:292:15\nfetch@resource://services-settings/Utils.sys.mjs:244:12\n_fetchAttachment@resource://services-settings/Attachments.sys.mjs:591:35\ndownloadAsBytes@resource://services-settings/Attachments.sys.mjs:568:35\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:292:15|fetch@resource://services-settings/Utils.sys.mjs:244:12|_fetchAttachment@resource://services-settings/Attachments.sys.mjs:591:35|downloadAsBytes@resource://services-settings/Attachments.sys.mjs:568:35|
+  - prototype Object
+console.error: RemoteSecuritySettings: 
+  failed to obtain bytes for CRLite delta 20260909-1-default.filter.delta
+console.error: RemoteSecuritySettings: 
+  failed to download CRLite filter
+Object
+  - prototype Object
+    - columnNumber = 11
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":29,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":28,"lineNumber":292,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":28,"lineNumber":244,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Attachments.sys.mjs","name":"_fetchAttachment","sourceId":27,"lineNumber":591,"columnNumber":35,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Attachments.sys.mjs","name":"downloadAsBytes","sourceId":27,"lineNumber":568,"columnNumber":35,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"downloadAsBytes@resource://services-settings/Attachments.sys.mjs:568:35\n","nativeSavedFrame":{}},"formattedStack":"_fetchAttachment@resource://services-settings/Attachments.sys.mjs:591:35\ndownloadAsBytes@resource://services-settings/Attachments.sys.mjs:568:35\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:244:12\n_fetchAttachment@resource://services-settings/Attachments.sys.mjs:591:35\ndownloadAsBytes@resource://services-settings/Attachments.sys.mjs:568:35\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:292:15\nfetch@resource://services-settings/Utils.sys.mjs:244:12\n_fetchAttachment@resource://services-settings/Attachments.sys.mjs:591:35\ndownloadAsBytes@resource://services-settings/Attachments.sys.mjs:568:35\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:292:15\nfetch@resource://services-settings/Utils.sys.mjs:244:12\n_fetchAttachment@resource://services-settings/Attachments.sys.mjs:591:35\ndownloadAsBytes@resource://services-settings/Attachments.sys.mjs:568:35\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:292:15|fetch@resource://services-settings/Utils.sys.mjs:244:12|_fetchAttachment@resource://services-settings/Attachments.sys.mjs:591:35|downloadAsBytes@resource://services-settings/Attachments.sys.mjs:568:35|
+  - prototype Object
+console.error: RemoteSecuritySettings: 
+  failed to obtain bytes for CRLite delta 20261002-0-default.filter.delta
+console.error: RemoteSecuritySettings: 
+  failed to download CRLite filter
+Object
+  - prototype Object
+    - columnNumber = 11
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":29,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":28,"lineNumber":292,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":28,"lineNumber":244,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Attachments.sys.mjs","name":"_fetchAttachment","sourceId":27,"lineNumber":591,"columnNumber":35,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Attachments.sys.mjs","name":"downloadAsBytes","sourceId":27,"lineNumber":568,"columnNumber":35,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"downloadAsBytes@resource://services-settings/Attachments.sys.mjs:568:35\n","nativeSavedFrame":{}},"formattedStack":"_fetchAttachment@resource://services-settings/Attachments.sys.mjs:591:35\ndownloadAsBytes@resource://services-settings/Attachments.sys.mjs:568:35\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:244:12\n_fetchAttachment@resource://services-settings/Attachments.sys.mjs:591:35\ndownloadAsBytes@resource://services-settings/Attachments.sys.mjs:568:35\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:292:15\nfetch@resource://services-settings/Utils.sys.mjs:244:12\n_fetchAttachment@resource://services-settings/Attachments.sys.mjs:591:35\ndownloadAsBytes@resource://services-settings/Attachments.sys.mjs:568:35\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:292:15\nfetch@resource://services-settings/Utils.sys.mjs:244:12\n_fetchAttachment@resource://services-settings/Attachments.sys.mjs:591:35\ndownloadAsBytes@resource://services-settings/Attachments.sys.mjs:568:35\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:292:15|fetch@resource://services-settings/Utils.sys.mjs:244:12|_fetchAttachment@resource://services-settings/Attachments.sys.mjs:591:35|downloadAsBytes@resource://services-settings/Attachments.sys.mjs:568:35|
+  - prototype Object
+console.error: RemoteSecuritySettings: 
+  failed to obtain bytes for CRLite delta 20261006-1-default.filter.delta
+console.error: RemoteSecuritySettings: 
+  failed to download CRLite filter
+Object
+  - prototype Object
+    - columnNumber = 11
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":29,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":28,"lineNumber":292,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":28,"lineNumber":244,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Attachments.sys.mjs","name":"_fetchAttachment","sourceId":27,"lineNumber":591,"columnNumber":35,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Attachments.sys.mjs","name":"downloadAsBytes","sourceId":27,"lineNumber":568,"columnNumber":35,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"downloadAsBytes@resource://services-settings/Attachments.sys.mjs:568:35\n","nativeSavedFrame":{}},"formattedStack":"_fetchAttachment@resource://services-settings/Attachments.sys.mjs:591:35\ndownloadAsBytes@resource://services-settings/Attachments.sys.mjs:568:35\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:244:12\n_fetchAttachment@resource://services-settings/Attachments.sys.mjs:591:35\ndownloadAsBytes@resource://services-settings/Attachments.sys.mjs:568:35\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:292:15\nfetch@resource://services-settings/Utils.sys.mjs:244:12\n_fetchAttachment@resource://services-settings/Attachments.sys.mjs:591:35\ndownloadAsBytes@resource://services-settings/Attachments.sys.mjs:568:35\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:292:15\nfetch@resource://services-settings/Utils.sys.mjs:244:12\n_fetchAttachment@resource://services-settings/Attachments.sys.mjs:591:35\ndownloadAsBytes@resource://services-settings/Attachments.sys.mjs:568:35\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:292:15|fetch@resource://services-settings/Utils.sys.mjs:244:12|_fetchAttachment@resource://services-settings/Attachments.sys.mjs:591:35|downloadAsBytes@resource://services-settings/Attachments.sys.mjs:568:35|
+  - prototype Object
+console.error: RemoteSecuritySettings: 
+  failed to obtain bytes for CRLite delta 20260923-1-default.filter.delta
+console.error: RemoteSecuritySettings: 
+  failed to download CRLite filter
+Object
+  - prototype Object
+    - columnNumber = 11
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":29,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":28,"lineNumber":292,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":28,"lineNumber":244,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Attachments.sys.mjs","name":"_fetchAttachment","sourceId":27,"lineNumber":591,"columnNumber":35,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Attachments.sys.mjs","name":"downloadAsBytes","sourceId":27,"lineNumber":568,"columnNumber":35,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"downloadAsBytes@resource://services-settings/Attachments.sys.mjs:568:35\n","nativeSavedFrame":{}},"formattedStack":"_fetchAttachment@resource://services-settings/Attachments.sys.mjs:591:35\ndownloadAsBytes@resource://services-settings/Attachments.sys.mjs:568:35\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:244:12\n_fetchAttachment@resource://services-settings/Attachments.sys.mjs:591:35\ndownloadAsBytes@resource://services-settings/Attachments.sys.mjs:568:35\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:292:15\nfetch@resource://services-settings/Utils.sys.mjs:244:12\n_fetchAttachment@resource://services-settings/Attachments.sys.mjs:591:35\ndownloadAsBytes@resource://services-settings/Attachments.sys.mjs:568:35\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:292:15\nfetch@resource://services-settings/Utils.sys.mjs:244:12\n_fetchAttachment@resource://services-settings/Attachments.sys.mjs:591:35\ndownloadAsBytes@resource://services-settings/Attachments.sys.mjs:568:35\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:292:15|fetch@resource://services-settings/Utils.sys.mjs:244:12|_fetchAttachment@resource://services-settings/Attachments.sys.mjs:591:35|downloadAsBytes@resource://services-settings/Attachments.sys.mjs:568:35|
+  - prototype Object
+console.error: RemoteSecuritySettings: 
+  failed to obtain bytes for CRLite delta 20260912-1-default.filter.delta
+JavaScript error: resource://gre/modules/PrivateBrowsingUtils.sys.mjs, line 50: TypeError: can't access property "QueryInterface", aWindow.docShell is null
+Dynamically enable window occlusion 1

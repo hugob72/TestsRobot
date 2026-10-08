@@ -1,102 +1,188 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.5 (Python 3.14.7 on win32)" generated="2026-09-27T21:07:43.246938" rpa="false" schemaversion="5">
-<suite id="s1" name="Exercice1" source="C:\Users\hblan\Documents\Autodidacte\test-squash\tests\Exercice1.robot">
-<test id="s1-t1" name="Ouvrir Google dans le navigateur" line="12">
+<robot generator="Robot 7.5 (Python 3.14.7 on win32)" generated="2026-10-09T00:47:59.729036" rpa="false" schemaversion="5">
+<suite id="s1" name="Connexion" source="C:\Users\hblan\Documents\Autodidacte\test-squash\tests\Connexion.robot">
+<test id="s1-t1" name="Connexion réussi" line="15">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2026-09-27T21:07:44.056258" level="INFO">Opening browser 'ff' to base url 'https://google.Fr'.</msg>
+<msg time="2026-10-09T00:48:00.101602" level="INFO">Opening browser 'ff' to base url 'http://localhost:8080'.</msg>
 <arg>${LOGIN URL}</arg>
 <arg>${BROWSER}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2026-09-27T21:07:44.054409" elapsed="65.031270"/>
+<status status="PASS" start="2026-10-09T00:48:00.101162" elapsed="12.214959"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2026-09-27T21:08:49.107572" elapsed="0.297431"/>
+<status status="PASS" start="2026-10-09T00:48:12.324148" elapsed="0.316298"/>
 </kw>
-<status status="PASS" start="2026-09-27T21:07:44.051670" elapsed="65.409117"/>
-</test>
-<test id="s1-t2" name="Chercher le site de l'université" line="15">
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2026-09-27T21:08:49.578066" level="INFO">Clicking element '//*[@id="W0wltc"]'.</msg>
-<arg>${SEARCHBAR}</arg>
+<msg time="2026-10-09T00:48:12.648061" level="INFO">Clicking element '//*[@id="email"]'.</msg>
+<arg>${ID INPUT}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2026-09-27T21:08:49.531203" elapsed="0.219169"/>
+<status status="PASS" start="2026-10-09T00:48:12.642279" elapsed="0.232549"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2026-09-27T21:08:49.752764" level="INFO">Typing text 'Le Mans Université' into text field 'name=q'.</msg>
-<arg>name=q</arg>
-<arg>Le Mans Université</arg>
+<msg time="2026-10-09T00:48:12.875973" level="INFO">Typing text 'admin@admin.com' into text field 'name=email'.</msg>
+<arg>name=email</arg>
+<arg>admin@admin.com</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-09-27T21:08:49.751251" elapsed="0.210133"/>
-</kw>
-<kw name="Sleep" owner="BuiltIn">
-<msg time="2026-09-27T21:08:51.991084" level="INFO">Slept 2 seconds.</msg>
-<arg>2</arg>
-<doc>Pauses execution for the given time.</doc>
-<status status="PASS" start="2026-09-27T21:08:49.963566" elapsed="2.027755"/>
-</kw>
-<kw name="Press Keys" owner="SeleniumLibrary">
-<msg time="2026-09-27T21:08:51.995203" level="INFO">Sending key(s) ('RETURN',) to name=q element.</msg>
-<msg time="2026-09-27T21:08:52.685657" level="INFO">Pressing special key RETURN to element.</msg>
-<msg time="2026-09-27T21:08:52.686051" level="INFO">Releasing special key RETURN.</msg>
-<arg>name=q</arg>
-<arg>RETURN</arg>
-<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
-<status status="PASS" start="2026-09-27T21:08:51.993389" elapsed="0.827540"/>
-</kw>
-<kw name="Sleep" owner="BuiltIn">
-<msg time="2026-09-27T21:08:53.823799" level="INFO">Slept 1 second.</msg>
-<arg>1</arg>
-<doc>Pauses execution for the given time.</doc>
-<status status="PASS" start="2026-09-27T21:08:52.821965" elapsed="1.002233"/>
-</kw>
-<status status="PASS" start="2026-09-27T21:08:49.478443" elapsed="4.346552"/>
-</test>
-<test id="s1-t3" name="Aller sur l'ENT" line="21">
-<kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2026-09-27T21:08:53.828877" level="INFO">Clicking element '//*[@class="l" and contains(text(),"ENT")]'.</msg>
-<msg time="2026-09-27T21:08:53.948423" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
-<msg time="2026-09-27T21:08:53.959407" level="FAIL">Element with locator '//*[@class="l" and contains(text(),"ENT")]' not found.</msg>
-<arg>//*[@class="l" and contains(text(),"ENT")]</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<status status="FAIL" start="2026-09-27T21:08:53.828379" elapsed="0.171522">Element with locator '//*[@class="l" and contains(text(),"ENT")]' not found.</status>
+<status status="PASS" start="2026-10-09T00:48:12.875403" elapsed="0.120376"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<arg>//*[@id="bouton-etudiant"]</arg>
+<msg time="2026-10-09T00:48:12.997013" level="INFO">Clicking element '//*[@id="password"]'.</msg>
+<arg>${PASSWORD INPUT}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="NOT RUN" start="2026-09-27T21:08:54.001212" elapsed="0.000100"/>
+<status status="PASS" start="2026-10-09T00:48:12.996469" elapsed="0.071010"/>
 </kw>
-<kw name="Click Element" owner="SeleniumLibrary">
-<arg>//*[@id="header-a1"]</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<status status="NOT RUN" start="2026-09-27T21:08:54.001785" elapsed="0.000064"/>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-10-09T00:48:13.069023" level="INFO">Typing text 'admin' into text field 'name=password'.</msg>
+<arg>name=password</arg>
+<arg>admin</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-10-09T00:48:13.068215" elapsed="0.040066"/>
 </kw>
-<status status="FAIL" start="2026-09-27T21:08:53.827020" elapsed="0.175916">Element with locator '//*[@class="l" and contains(text(),"ENT")]' not found.</status>
-</test>
-<test id="s1-t4" name="Fermeture du navigateur" line="25">
-<kw name="Sleep" owner="BuiltIn">
-<msg time="2026-09-27T21:08:55.007345" level="INFO">Slept 1 second.</msg>
-<arg>1</arg>
-<doc>Pauses execution for the given time.</doc>
-<status status="PASS" start="2026-09-27T21:08:54.005086" elapsed="1.002482"/>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-10-09T00:48:13.109265" level="INFO">Clicking button 'css=button.login-button'.</msg>
+<arg>${CONNECTION BUTTON}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-10-09T00:48:13.108796" elapsed="0.114680"/>
+</kw>
+<kw name="Wait Until Element Contains" owner="SeleniumLibrary">
+<arg>${HOME CONTENT}</arg>
+<arg>home</arg>
+<arg>timeout=1s</arg>
+<doc>Waits until the element ``locator`` contains ``text``.</doc>
+<status status="PASS" start="2026-10-09T00:48:13.224062" elapsed="0.491614"/>
 </kw>
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2026-09-27T21:08:55.009093" elapsed="3.256410"/>
+<status status="PASS" start="2026-10-09T00:48:13.716396" elapsed="3.319594"/>
 </kw>
-<status status="PASS" start="2026-09-27T21:08:54.003803" elapsed="4.262235"/>
+<status status="PASS" start="2026-10-09T00:48:00.098211" elapsed="16.938330"/>
 </test>
-<doc>Exercice 1 : Se connecter à une application web</doc>
-<status status="FAIL" start="2026-09-27T21:07:43.250652" elapsed="75.018136"/>
+<test id="s1-t2" name="Identifiant inexistant" line="26">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-10-09T00:48:17.038134" level="INFO">Opening browser 'ff' to base url 'http://localhost:8080'.</msg>
+<arg>${LOGIN URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-10-09T00:48:17.037847" elapsed="9.539192"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-10-09T00:48:26.582622" elapsed="0.326394"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-10-09T00:48:26.930640" level="INFO">Clicking element '//*[@id="email"]'.</msg>
+<arg>${ID INPUT}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-10-09T00:48:26.928461" elapsed="0.381684"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-10-09T00:48:27.311253" level="INFO">Typing text 'toto@toto.com' into text field 'name=email'.</msg>
+<arg>name=email</arg>
+<arg>toto@toto.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-10-09T00:48:27.310669" elapsed="0.115116"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-10-09T00:48:27.426855" level="INFO">Clicking element '//*[@id="password"]'.</msg>
+<arg>${PASSWORD INPUT}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-10-09T00:48:27.426368" elapsed="0.080360"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-10-09T00:48:27.507844" level="INFO">Typing text 'toto' into text field 'name=password'.</msg>
+<arg>name=password</arg>
+<arg>toto</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-10-09T00:48:27.507328" elapsed="0.040328"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-10-09T00:48:27.549184" level="INFO">Clicking button 'css=button.login-button'.</msg>
+<arg>${CONNECTION BUTTON}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-10-09T00:48:27.548377" elapsed="0.125502"/>
+</kw>
+<kw name="Wait Until Element Contains" owner="SeleniumLibrary">
+<arg>${ERROR ID}</arg>
+<arg>Email ou mot de passe incorrect</arg>
+<arg>timeout=1s</arg>
+<doc>Waits until the element ``locator`` contains ``text``.</doc>
+<status status="PASS" start="2026-10-09T00:48:27.675745" elapsed="0.235082"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-10-09T00:48:27.911405" elapsed="3.550165"/>
+</kw>
+<status status="PASS" start="2026-10-09T00:48:17.037205" elapsed="14.424858"/>
+</test>
+<test id="s1-t3" name="Mot de passe faux" line="37">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-10-09T00:48:31.463378" level="INFO">Opening browser 'ff' to base url 'http://localhost:8080'.</msg>
+<arg>${LOGIN URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-10-09T00:48:31.463172" elapsed="9.035771"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-10-09T00:48:40.500695" elapsed="0.338189"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-10-09T00:48:40.840808" level="INFO">Clicking element '//*[@id="email"]'.</msg>
+<arg>${ID INPUT}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-10-09T00:48:40.840017" elapsed="0.360302"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-10-09T00:48:41.203986" level="INFO">Typing text 'admin@admin.com' into text field 'name=email'.</msg>
+<arg>name=email</arg>
+<arg>admin@admin.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-10-09T00:48:41.203326" elapsed="0.221137"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-10-09T00:48:41.425812" level="INFO">Clicking element '//*[@id="password"]'.</msg>
+<arg>${PASSWORD INPUT}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-10-09T00:48:41.425138" elapsed="0.075301"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-10-09T00:48:41.501997" level="INFO">Typing text 'toto' into text field 'name=password'.</msg>
+<arg>name=password</arg>
+<arg>toto</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-10-09T00:48:41.501114" elapsed="0.044796"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-10-09T00:48:41.547349" level="INFO">Clicking button 'css=button.login-button'.</msg>
+<arg>${CONNECTION BUTTON}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-10-09T00:48:41.546714" elapsed="0.147860"/>
+</kw>
+<kw name="Wait Until Element Contains" owner="SeleniumLibrary">
+<arg>${ERROR ID}</arg>
+<arg>Email ou mot de passe incorrect</arg>
+<arg>timeout=1s</arg>
+<doc>Waits until the element ``locator`` contains ``text``.</doc>
+<status status="PASS" start="2026-10-09T00:48:41.695244" elapsed="0.234381"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-10-09T00:48:41.932432" elapsed="3.407988"/>
+</kw>
+<status status="PASS" start="2026-10-09T00:48:31.462624" elapsed="13.878229"/>
+</test>
+<doc>Tests sur le formulaire de connexion</doc>
+<status status="PASS" start="2026-10-09T00:47:59.730426" elapsed="45.611519"/>
 </suite>
 <statistics>
 <total>
-<stat pass="3" fail="1" skip="0">All Tests</stat>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat name="Exercice1" id="s1" pass="3" fail="1" skip="0">Exercice1</stat>
+<stat name="Connexion" id="s1" pass="3" fail="0" skip="0">Connexion</stat>
 </suite>
 </statistics>
 <errors>
